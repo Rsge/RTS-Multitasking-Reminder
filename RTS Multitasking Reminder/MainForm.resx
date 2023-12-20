@@ -1,0 +1,385 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Microsoft ResX Schema 
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="CountdownTxt.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="CountdownTxt.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 24pt, style=Bold</value>
+  </data>
+  <data name="CountdownTxt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="CountdownTxt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>257, 54</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="CountdownTxt.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="CountdownTxt.Text" xml:space="preserve">
+    <value>0 s</value>
+  </data>
+  <data name="CountdownTxt.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;CountdownTxt.Name" xml:space="preserve">
+    <value>CountdownTxt</value>
+  </data>
+  <data name="&gt;&gt;CountdownTxt.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CountdownTxt.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CountdownTxt.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="StartStopButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="StartStopButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 24pt</value>
+  </data>
+  <data name="StartStopButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 72</value>
+  </data>
+  <data name="StartStopButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>257, 64</value>
+  </data>
+  <data name="StartStopButton.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="StartStopButton.Text" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="&gt;&gt;StartStopButton.Name" xml:space="preserve">
+    <value>StartStopButton</value>
+  </data>
+  <data name="&gt;&gt;StartStopButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;StartStopButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;StartStopButton.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="CycleLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CycleLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 18pt</value>
+  </data>
+  <data name="CycleLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 139</value>
+  </data>
+  <data name="CycleLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 41</value>
+  </data>
+  <data name="CycleLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="CycleLabel.Text" xml:space="preserve">
+    <value>Cycle</value>
+  </data>
+  <data name="&gt;&gt;CycleLabel.Name" xml:space="preserve">
+    <value>CycleLabel</value>
+  </data>
+  <data name="&gt;&gt;CycleLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CycleLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CycleLabel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="CycleNUD.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="CycleNUD.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 18pt</value>
+  </data>
+  <data name="CycleNUD.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 183</value>
+  </data>
+  <data name="CycleNUD.Size" type="System.Drawing.Size, System.Drawing">
+    <value>220, 47</value>
+  </data>
+  <data name="CycleNUD.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="CycleNUD.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="CycleNUD.UpDownAlign" type="System.Windows.Forms.LeftRightAlignment, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="&gt;&gt;CycleNUD.Name" xml:space="preserve">
+    <value>CycleNUD</value>
+  </data>
+  <data name="&gt;&gt;CycleNUD.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CycleNUD.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CycleNUD.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="UnitLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="UnitLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="UnitLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 18pt</value>
+  </data>
+  <data name="UnitLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>238, 185</value>
+  </data>
+  <data name="UnitLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 41</value>
+  </data>
+  <data name="UnitLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="UnitLabel.Text" xml:space="preserve">
+    <value>s</value>
+  </data>
+  <data name="&gt;&gt;UnitLabel.Name" xml:space="preserve">
+    <value>UnitLabel</value>
+  </data>
+  <data name="&gt;&gt;UnitLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UnitLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;UnitLabel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="Timer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 20</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>281, 242</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAAAAEAIACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAA
+        AAoAAABMAAAASwAAAAoAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAA
+        gAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAA
+        gAAAAAAuAAAA4gAAAP8AAAD/AAAA4gAAACQAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAA
+        gAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAA
+        gAAAAIAAAACAAAAAAMwAAAD/AAAA/wAAAP8AAAD/AAAAwwAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAA
+        gAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAA
+        gAAAAIAAAACAAAAAgAAAAAAAAAAAzQAAAM0AAADNAAAAzQAAAM0AAADNAAAAAAAAgAAAAIAAAACAAAAA
+        gAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAA
+        gAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAA
+        gAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAAAAywAA
+        AMwAAADMAAAAzAAAAMwAAADMAAAAzAAAAMwAAADMAAAAzAAAAMwAAADMAAAAzAAAAMwAAADMAAAAzAAA
+        AMwAAADMAAAAzAAAAMwAAADMAAAAzAAAAMwAAADMAAAAzAAAAMsAAIAAAACAAAAAgAAAAIAAAACAAAAA
+        gAAAAAD0AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA9AAAgAAAAIAAAACAAAAA
+        gAAAAIAAAACAAAAAAD0AAAD1AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAPUAAAA9AACAAAAA
+        gAAAAIAAAACAAAAAgAAAAIAAAACAAAAAAD0AAAD1AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD1AAAAPQAA
+        gAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAAD0AAAD6AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA9wAA
+        AD0AAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAAOQAAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAADWAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAAAA5AAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAANYAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAA
+        gAAAAADkAAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA1QAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAA
+        gAAAAIAAAACAAAAAAOQAAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAADTAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAA
+        gAAAAIAAAACAAAAAgAAAAIAAAAAA5AAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAANIAAIAAAACAAAAAgAAAAIAAAACAAAAA
+        gAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAADkAAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA0gAAgAAAAIAAAACAAAAA
+        gAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAAOQAAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAADRAACAAAAA
+        gAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAAAA5AAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        ANAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAAAqAAAAKwAAACsAAAAHAACAAAAAgAAAAADfAAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAAzAAAgAAAAIAAAAAACQAAACsAAAArAAAAKgAAAN8AAAD/AAAA/wAAADMAAIAAAACAAAAA
+        AMwAAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAADMAACAAAAAgAAAAAAzAAAA/wAAAP8AAADWAAAAyQAAAP8AAAD/AAAAUgAA
+        gAAAAIAAAAAAmwAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAJMAAIAAAACAAAAAAFoAAAD/AAAA/wAAAMYAAACVAAAA/wAA
+        AP8AAACGAACAAAAAgAAAAABRAAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAASwAAgAAAAIAAAAAAkAAAAP8AAAD/AAAAkwAA
+        AFUAAAD/AAAA/wAAAN4AAIAAAACAAAAACwAAAADbAAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAANYAAAAAAACAAAAAgAAAAADiAAAA/wAA
+        AP8AAABTAAAADQAAAPYAAAD/AAAA/wAAAD8AAIAAAACAAAAAAFEAAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAASwAAgAAAAIAAAAAARgAA
+        AP8AAAD/AAAA9QAAAAwAAIAAAAAAoQAAAP8AAAD/AAAAxQAAgAAAAIAAAACAAAAAAJQAAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAIwAAIAAAACAAAAA
+        AAAAAADJAAAA/wAAAP8AAACeAACAAAAAgAAAAAApAAAA/wAAAP8AAAD/AAAAZQAAgAAAAIAAAACAAAAA
+        AJcAAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAACUAACAAAAA
+        gAAAAIAAAAAAbQAAAP8AAAD/AAAA/wAAACgAAIAAAACAAAAAgAAAAACVAAAA/wAAAP8AAAD1AAAAPAAA
+        gAAAAIAAAACAAAAAAFUAAADqAAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAADqAAAAUQAA
+        gAAAAIAAAACAAAAAAD0AAAD2AAAA/wAAAP8AAACNAACAAAAAgAAAAIAAAACAAAAAAAoAAADfAAAA/wAA
+        AP8AAADqAAAANwAAgAAAAIAAAACAAAAAAAoAAABiAAAAvwAAAP8AAAD/AAAA/wAAAP8AAAC5AAAAYQAA
+        AAcAAIAAAACAAAAAgAAAAAA9AAAA9QAAAP8AAAD/AAAA2QAAAAoAAIAAAACAAAAAgAAAAIAAAACAAAAA
+        ACwAAAD1AAAA/wAAAP8AAAD1AAAAMgAAgAAAAIAAAACAAAAAgAAAAABRAAAA/wAAAP8AAAD/AAAA/wAA
+        ADIAAIAAAACAAAAAgAAAAIAAAAAAQgAAAPUAAAD/AAAA/wAAAPQAAAAmAACAAAAAgAAAAIAAAACAAAAA
+        gAAAAIAAAACAAAAAAD0AAAD1AAAA/wAAAJ0AAAMBAACAAAAAgAAAAIAAAACAAAAAACMAAAD/AAAA/wAA
+        AP8AAAD/AAAAIgAAgAAAAIAAAACAAAAAgAAAAAAGAAAAtAAAAP8AAAD0AAAAPQAAgAAAAIAAAACAAAAA
+        gAAAAIAAAACAAAAAgAAAAIAAAACAAAAAADYAAACQAAABAgAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAA
+        AHUAAAD4AAAA9gAAAHEAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAAAGAAAAmQAAACwAAIAAAACAAAAA
+        gAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAA
+        gAAAAIAAAACAAAAAAgEAAAUBAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAA
+        gAAAAIAAAACAAAAAgAAAAIAA//w////4H///+B////gf///////gAAAH4AAAB+AAAAfwAAAP+AAAH/wA
+        AD/8AAA//AAAP/wAAD/8AAA//AAAP/wAAD/8AAA/DAAAMAwAADAMAAAwDAAAMA4AAHAGAABghwAA4YOA
+        AcHBwAODwOAHA+B4HgfweB4P+Pw/H//+f/8=
+</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>RTS Multitasking Reminder</value>
+  </data>
+  <data name="&gt;&gt;Timer.Name" xml:space="preserve">
+    <value>Timer</value>
+  </data>
+  <data name="&gt;&gt;Timer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MainForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
